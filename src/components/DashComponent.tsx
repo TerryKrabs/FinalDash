@@ -33,7 +33,6 @@ const DashComponent = () => {
 
     return (
         <div className={switchDark ? lightModeBg : darkModeBg}>
-            {/* DESKTOP HEADER */}
             <div>
                 <div className='font-mainFont grid lg:grid-cols-2 sm:grid-cols-1 ml-32  '>
 
@@ -118,7 +117,6 @@ const DashComponent = () => {
                     </Card>
                 </div>
 
-                {/* IG CARD */}
                 <div className='lg:ml-10 sm:ml-0'>
                     <Card href="#" className={switchDark ? thirdLightCard : thirdDarkCard}>
 
@@ -308,7 +306,6 @@ const DashComponent = () => {
 
             </div>
 
-            {/* SMALL CARDS SECOND ROW */}
             <div className='grid lg:grid-cols-4 mt-3 sm:justify-center'>
 
                 <div className='ml-0 lg:ml-32'>
@@ -440,5 +437,8 @@ const DashComponent = () => {
         </div>
     )
 }
+
+
+
 
 export default DashComponent
